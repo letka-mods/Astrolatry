@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "astrolatry",
+	"version": "${version}",
+	"name": "Astrolatry",
+	"description": "Ex animō vīque astrōrum!",
+	"authors": [
+		"letka_"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@l%C9%9Btka",
+		"sources": "https://github.com/Kaptusia/stellar-mod/blob/main/gradle.properties"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/astrolatry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.letka.astrolatry.Astrolatry"
+		],
+		"fabric-datagen": [
+			"dev.letka.astrolatry.AstrolatryDataGenerator"
+		],
+		"client": [
+			"dev.letka.astrolatry.AstrolatryClient"
+		]
+	},
+	"mixins": [
+		"astrolatry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
