@@ -1,6 +1,7 @@
 package dev.letka.astrolatry.common.item;
 
 import dev.letka.astrolatry.Astrolatry;
+import dev.letka.astrolatry.common.item.custom.StargazerItem;
 import dev.letka.astrolatry.common.item.custom.StellarCrystalItem;
 import dev.letka.astrolatry.common.item.custom.StellarPowderItem;
 import dev.letka.astrolatry.common.item.custom.WandItem;
@@ -18,6 +19,16 @@ public class ModItems {
     public static final Item TWIG = registerItem("twig", new Item(new Item.Settings()));
 
     public static final Item WAND = registerItem("wand", new WandItem(new Item.Settings().maxCount(1)));
+
+    public static final Item COPPER_POWDER = registerItem("copper_powder", new Item(new Item.Settings()));
+
+    public static final Item GOLD_POWDER = registerItem("gold_powder", new Item(new Item.Settings()));
+
+    public static final Item TUMBAGA_POWDER = registerItem("tumbaga_powder", new Item(new Item.Settings()));
+
+    public static final Item TUMBAGA_INGOT = registerItem("tumbaga_ingot", new Item(new Item.Settings()));
+
+    public static final Item STARGAZER = registerItem("stargazer", new StargazerItem(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
 

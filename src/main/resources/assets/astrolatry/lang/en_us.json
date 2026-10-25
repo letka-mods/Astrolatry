@@ -3,8 +3,13 @@
   "item.astrolatry.stellar_powder": "Star Infused Powder",
   "item.astrolatry.twig": "Twig",
   "item.astrolatry.wand": "Twig?",
+  "item.astrolatry.copper_powder": "Copper Powder",
+  "item.astrolatry.gold_powder": "Gold Powder",
+  "item.astrolatry.tumbaga_powder": "Tumbaga Powder",
+  "item.astrolatry.tumbaga_ingot": "Tumbaga Ingot",
+  "item.astrolatry.stargazer": "The Stargazer",
 
-  "block.astrolatry.kaptusia_plushie": "Kaptusia Plushie",
+  "block.astrolatry.kaptusia_plushie": "Letka Plushie",
   "block.astrolatry.hook": "Hook",
 
   "itemgroup.astrolatry": "Astrolatry"

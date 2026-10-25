@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "tumbaga_ingot",
+  "ingredient": {
+    "item": "astrolatry:tumbaga_powder"
+  },
+  "result": {
+    "id": "astrolatry:tumbaga_ingot"
+  }
+}

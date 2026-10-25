@@ -81,6 +81,16 @@ public class AnvilBlockMixin {
                     entity.kill();
                     world.spawnEntity(new ItemEntity(world, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, new ItemStack(Items.GLOWSTONE_DUST, ((ItemEntity) entity).getStack().getCount() * 4)));
                 }
+
+                if (((ItemEntity) entity).getStack().isOf(Items.RAW_COPPER)) {
+                    entity.kill();
+                    world.spawnEntity(new ItemEntity(world, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, new ItemStack(ModItems.COPPER_POWDER, ((ItemEntity) entity).getStack().getCount() * 2)));
+                }
+
+                if (((ItemEntity) entity).getStack().isOf(Items.RAW_GOLD)) {
+                    entity.kill();
+                    world.spawnEntity(new ItemEntity(world, pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, new ItemStack(ModItems.GOLD_POWDER, ((ItemEntity) entity).getStack().getCount() * 2)));
+                }
             }
         }
     }

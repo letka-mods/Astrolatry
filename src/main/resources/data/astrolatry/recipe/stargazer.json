@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "astrolatry:tumbaga_ingot"
+    },
+    "C": {
+      "item": "astrolatry:stellar_crystal"
+    }
+  },
+  "pattern": [
+    "C",
+    "T",
+    "T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "astrolatry:stargazer"
+  }
+}
